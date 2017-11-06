@@ -113,3 +113,21 @@ padding-right: 50px;
 .image{
   margin-top: 15px;
 }
+.bites{
+  display: flex;
+  flex-direction: column;
+}
+.bites h2{
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+}
+.bites span{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  height: 40px;
+  border-bottom: 1px solid black;
+}
