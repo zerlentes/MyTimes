@@ -11,6 +11,7 @@ header{
   position: fixed;
   z-index: 1;
   background-color: white;
+  top: 0;
 }
 .logo{
   display: flex;
@@ -32,10 +33,10 @@ padding-right: 50px;
 }
 .main{
   display: flex;
-  width: 100%;
-  padding-top: 30px;
-  margin: 0 auto 70 auto;;
+  width: 1230px;
+  padding-top: 100px;
   padding-bottom: 80px;
+  margin: auto;
 }
 .column{
   display: flex;
