@@ -8,6 +8,9 @@ header{
   font-weight: bold;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
 }
 .logo{
   display: flex;
@@ -31,7 +34,8 @@ padding-right: 50px;
   display: flex;
   width: 100%;
   padding-top: 30px;
-  margin: 0 auto;
+  margin: 0 auto 70 auto;;
+  padding-bottom: 80px;
 }
 .column{
   display: flex;
@@ -128,6 +132,34 @@ padding-right: 50px;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
-  height: 40px;
+  width: 200px;
+  height: 15px;
+  padding: 15px 20px;
   border-bottom: 1px solid black;
+}
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 3px solid white;
+  padding-right: 30px;
+  margin-right: 40px;
+}
+.bottom-line{
+  padding-top: 20px;
+}
+.top-line a{
+  padding-right: 20px;
 }
